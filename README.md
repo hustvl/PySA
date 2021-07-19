@@ -5,9 +5,11 @@
 
 Paper: Pyramid Self-Attention for Semantic Segmentation
 
-By Jiyang Qi<sup>1</sup>, Xinggang Wang<sup>1,2</sup>, Yao Hu<sup>3</sup>, Xu Tang<sup>3</sup>, Wenyu Liu<sup>1</sup>
+by [Jiyang Qi](https://scholar.google.com/citations?user=v8pL6_gAAAAJ)<sup>1</sup>, [Xinggang Wang](https://xinggangw.info/)<sup>1,2 *</sup>, [Yao Hu](https://scholar.google.com/citations?user=LIu7k7wAAAAJ&hl=zh-CN)<sup>3</sup>, [Xu Tang](https://scholar.google.com/citations?user=grP24aAAAAAJ&hl=zh-CN)<sup>3</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>1</sup>
 
 <sup>1</sup> [School of EIC, HUST](http://eic.hust.edu.cn/English/Home.htm), <sup>2</sup> Hubei Key Laboratory of Smart Internet Technology, <sup>3</sup> [Alibaba Group](https://www.alibaba.com/)
+
+(*) Corresponding Author
 
 # Introduction
 
