@@ -15,7 +15,7 @@ by [Jiyang Qi](https://scholar.google.com/citations?user=v8pL6_gAAAAJ)<sup>1</su
 
 ![PySA](resources/PySA.png)
 
-Self-attention is vital in computer vision since it is the building block of Transformer and can model long-range context for visual recognition. However, computing pairwise self-attention between all pixels for dense prediction tasks (e.g., semantic segmentation) costs high computation. In this work, we propose a novel pyramid self-attention (PySA) mechanism which can collect global context information far more efficiently. Concretely, the basic module of PySA first divides the whole image into $R \times R$ regions, and then further divides every region into $G \times G$ grids. One feature is extracted for each grid and then self-attention is applied to the grid features within the same region. PySA keeps increasing $R$ (e.g., from $1$ to $8$) to harvest more local context information and propagate global context to local regions in a parallel/series manner. Since $G$ can be kept as a small value, the computation complexity is low.
+Self-attention is vital in computer vision since it is the building block of Transformer and can model long-range context for visual recognition. However, computing pairwise self-attention between all pixels for dense prediction tasks (e.g., semantic segmentation) costs high computation. In this work, we propose a novel pyramid self-attention (PySA) mechanism which can collect global context information far more efficiently. Concretely, the basic module of PySA first divides the whole image into R x R regions, and then further divides every region into G x G grids. One feature is extracted for each grid and then self-attention is applied to the grid features within the same region. PySA keeps increasing R (e.g., from 1 to 8) to harvest more local context information and propagate global context to local regions in a parallel/series manner. Since G can be kept as a small value, the computation complexity is low.
 
 # Architecture
 
@@ -30,4 +30,4 @@ Self-attention is vital in computer vision since it is the building block of Tra
 Overview of the proposed PySA-Parallel.
 </div>
 
-By keeping increasing $R$ (e.g., from $1$ to $8$), models can harvest more local context information and propagate global context to local regions in a parallel/series manner.
+By keeping increasing R (e.g., from 1 to 8), models can harvest more local context information and propagate global context to local regions in a parallel/series manner.
